@@ -3,7 +3,7 @@
 This project aims to detect the posture of a computer user in real-time using a fine-tuned version of YOLOv8. The custom dataset used for training consists of two classes: "Good" and "Bad", representing different postures.
 
 ## Dataset
-The dataset used in this project was created using a smartphone camera. It consists of 52 unique images, with each class containing 26 images. The dataset was manually labeled using the ImageLabel package in Python.
+The dataset used in this project was created using a smartphone camera. It consists of 52 unique images, with each class containing 26 images. The dataset was manually labeled using the labelImg package in Python.
 
 The training set contains 46 images, with 23 images from each class. The validation set consists of 3 images per class to evaluate the model's performance.
 
@@ -38,8 +38,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 - The YOLOv8 implementation used in this project is based on [YOLOv8 PyTorch](https://github.com/ultralytics/ultralytics) by Ultralytics.
-- Special thanks to the ImageLabel package for facilitating the dataset labeling process.
+- Special thanks to the labelImg package for facilitating the dataset labeling process.
 
 Please feel free to reach out with any questions or suggestions. Enjoy detecting postures with YOLOv8!
-
-s
