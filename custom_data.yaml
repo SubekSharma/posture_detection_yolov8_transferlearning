@@ -1,4 +1,4 @@
-train: 
-val:
+train: train
+val: val
 nc: 2
 names: ['good','bad']
