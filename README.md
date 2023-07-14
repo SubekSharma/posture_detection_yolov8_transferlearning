@@ -1,4 +1,4 @@
-# Posture Detection YOLOv8 Finetuned
+# Posture Detection YOLOv8 Finetuned on Custom Dataset
 
 This project aims to detect the posture of a computer user in real-time using a fine-tuned version of YOLOv8. The custom dataset used for training consists of two classes: "Good" and "Bad", representing different postures.
 
