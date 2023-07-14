@@ -1,4 +1,4 @@
-train: train
-val: val
+train: C:\Users\subek\Desktop\posture_detection_yolov8_finetuned\train
+val: C:\Users\subek\Desktop\posture_detection_yolov8_finetuned\val
 nc: 2
 names: ['good','bad']
