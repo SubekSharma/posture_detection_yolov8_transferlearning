@@ -13,11 +13,9 @@ The YOLOv8 architecture, the latest version of YOLO (You Only Look Once), was ch
 ## Usage
 To use the trained model for real-time posture detection, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/posture_detection_yolov8_finetuned.git`
+1. Clone the repository: `git clone https://github.com/subeksharma/posture_detection_yolov8_finetuned.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
-3. Download the pre-trained weights for YOLOv8: [yolov8.weights](https://link-to-pretrained-weights)
-4. Place the downloaded weights in the `weights/` directory.
-5. Run the real-time detection script: `python detect_posture.py`
+3. Run the real-time detection script: `python try.py`
 
 Make sure to have a webcam connected to your system to capture the live video feed. The script will process each frame in real-time and display the detected postures with bounding boxes and labels.
 
