@@ -5,6 +5,9 @@ This project aims to detect the posture of a computer user in real-time using a 
 ## Dataset
 The dataset used in this project was created using a smartphone camera. It consists of 52 unique images, with each class containing 26 images. The dataset was manually labeled using the labelImg package in Python.
 
+![image](https://github.com/SubekSharma/posture_detection_yolov8_transferlearning/assets/71229363/e597d04d-1377-4bda-80f2-edbee440a2f9)
+
+
 The training set contains 46 images, with 23 images from each class. The validation set consists of 3 images per class to evaluate the model's performance.
 
 ## Model
